@@ -1,0 +1,13 @@
+{
+  "name": "docker-ii",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "up": "docker-compose up --build -d",
+    "down": "docker-compose down"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
