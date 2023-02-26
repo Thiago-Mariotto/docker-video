@@ -15,10 +15,10 @@ function App() {
     <div className="App">
       <div className="App-header">
         <p>Proggraming Languages</p>
-        {
+        {instructors.length > 0 ?
           instructors.map(p => (
             <span>{p.name} - {p.creator}</span>
-          ))}
+          )) : `Empty database`}
       </div>
     </div>
   );
